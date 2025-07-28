@@ -8,9 +8,9 @@ Application web permettant de gérer le salaire des employés d'une entreprise
   - Calcul du salaire mensuel des employés
 
 # Technologies
-  FrontEnd ( Template Bootstrap )
-  BackEnd ( Laravel 10 )
-  BD ( MySQL )
+  -  FrontEnd ( Template Bootstrap )
+  -  BackEnd ( Laravel 10 )
+  -  BD ( MySQL )
 
    
 

@@ -60,7 +60,7 @@ class EmployeController extends Controller
 
             $employe->update();
 
-            return redirect()->route('employe.index')->with('info',"les informations de l'employe ont été mise à jour");
+          return redirect()->route('employe.index')->with('info',"les informations de l'employe ont été mise à jour");
 
         } catch (Exception $e){
             dd($e);

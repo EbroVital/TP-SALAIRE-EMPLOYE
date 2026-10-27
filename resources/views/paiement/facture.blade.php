@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -149,7 +149,7 @@
 
 
             <div class="item">
-                <div class="label">Identifiant employer:</div>
+                <div class="label">Identifiant employé:</div>
                 <div class="value">Emp{{$fullPaymentInfo->employe->id}}</div>
             </div>
             <div class="item">

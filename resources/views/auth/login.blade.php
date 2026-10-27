@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,17 +27,19 @@
 
             <div class="user">
 
-                <i class="fas fa-envelope"></i>
+                {{-- <i class="fas fa-envelope"></i> --}}
                 <input type="email" name="email" id="email" placeholder="Addresse email">
 
-                <i class="fas fa-unlock-alt"></i>
+                {{-- <i class="fas fa-unlock-alt"></i> --}}
                 <input type="password" name="password" id="password" placeholder="Mot de passe">
                 {{-- <i class="fas fa-unlock-alt"></i>
                 <input type="password" name="password" id="password" placeholder="Confirmez le mot de passe"> --}}
             </div>
             <div class="login-btn">
                 <button class="btn">Connexion</button>
+                <a href="{{route('create')}}">Créer un compte</a>
             </div>
+
             </form>
         </div>
     </div>

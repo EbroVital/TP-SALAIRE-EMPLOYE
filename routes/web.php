@@ -7,6 +7,7 @@ use App\Http\Controllers\dashboardController;
 use App\Http\Controllers\DepartementController;
 use App\Http\Controllers\EmployeController;
 use App\Http\Controllers\paymentController;
+use App\Http\Controllers\registerController;
 use App\Models\Departement;
 use Illuminate\Support\Facades\Route;
 
@@ -18,6 +19,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [AuthController::class, 'login'])->name('login');
 Route::post('/', [AuthController::class, 'handleLogin'])->name('handleLogin');
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+
+Route::get('/register',[registerController::class, 'create'])->name('create');
+Route::post('/register',[registerController::class, 'register'])->name('register');
 
 Route::get('/validate-account/{email}', [AdminController::class, 'defineAccess']);
 Route::post('/validate-account/{email}', [AdminController::class, 'SubmitdefineAccess'])->name('submit');

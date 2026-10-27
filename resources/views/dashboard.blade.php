@@ -12,7 +12,7 @@
 
         <div class="row mt-2 mb-2 p-2">
             @if ($paymentNotification)
-                <div class="alert alert-warning"> <b>Attention: </b> {{ $paymentNotification }}</div>
+                <div class="alert alert-warning text-center"> <b>Attention: </b> {{ $paymentNotification }}</div>
             @endif
         </div>
 
